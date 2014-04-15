@@ -6,20 +6,20 @@ int main()
 {
 	setlocale(LC_ALL, "Ukr");
 	cout << "\tCopyright @ 2014 by Bojko Roman\n"<<endl;
-	cout << "Ïðîãðàìà ïîêàçóº êîä ASCII òà éîãî ñèìâîë " <<endl;
+	cout << "ÐŸÑ€Ð¾Ð³Ñ€Ð°Ð¼Ð° Ð¿Ð¾ÐºÐ°Ð·ÑƒÑ” ÐºÐ¾Ð´ ASCII Ñ‚Ð° Ð¹Ð¾Ð³Ð¾ ÑÐ¸Ð¼Ð²Ð¾Ð» " <<endl;
     int ascii;
-    cout << "Íàòèñíiòü ëþáó êëàâiøó íà êëàâiàòóð³: "<<endl;
+    cout << "ÐÐ°Ñ‚Ð¸ÑÐ½iÑ‚ÑŒ Ð»ÑŽÐ±Ñƒ ÐºÐ»Ð°Ð²iÑˆÑƒ Ð½Ð° ÐºÐ»Ð°Ð²iÐ°Ñ‚ÑƒÑ€Ñ–: "<<endl;
 	cout << "--------------------------------------------" <<endl;
 	for( ; ; )
 	{
 		ascii = getch();
-		cout << "ASCII-êîä: " << ascii ;
+		cout << "ASCII-ÐºÐ¾Ð´: " << ascii ;
 		if(ascii == 32)
-			cout << " Cèìâîë: Ïðîáië " << endl;
+			cout << " CÐ¸Ð¼Ð²Ð¾Ð»: ÐŸÑ€Ð¾Ð±iÐ» " << endl;
 		if(ascii == 13){
-			cout << " Cèìâîë: Åíòåð " << endl;
+			cout << " CÐ¸Ð¼Ð²Ð¾Ð»: Ð•Ð½Ñ‚ÐµÑ€ " << endl;
 		}else{
-			cout << " Cèìâîë: " << (char)ascii << endl;
+			cout << " CÐ¸Ð¼Ð²Ð¾Ð»: " << (char)ascii << endl;
 		}
 	}
 	
